@@ -1,0 +1,192 @@
+/****
+==============================
+GLOBAL RESET
+==============================
+****/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+ul,li,ol
+{
+list-style: none;
+
+}
+
+/*HEADER*/
+.container
+{ 
+    width: 1000px;
+    margin: 0 auto;
+    
+
+}
+.head
+{
+    background-color: #60c0ff;
+    width: 1000px;
+    height: 80px; 
+    padding-top: 30px; 
+}
+
+.logo
+{
+    
+     margin-left: 50px;
+     float: left;
+
+}
+
+.navbar
+{
+    float:left;
+    margin-left: 35px;
+}
+
+
+.navbar ul li
+{
+    float: right;
+    color: #ffff;
+    padding-right: 30px;
+    font-weight: bold;
+
+
+}
+.navbar li a
+{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.banner
+{
+    background: url(../images/banner.jpg) no-repeat ;
+    width: 1000px;
+    height: 450px;
+    padding-top: 150px;
+
+}
+.banner h1
+{
+    font-size: 30px;
+    color: #66ffff;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+
+   
+}
+.banner h3
+{
+   font-size: 17px;
+   color: #ffff;
+   text-align: center;
+   width: 500px;
+   margin:auto;
+   line-height: 1.4;
+   padding: 20px 0px 20px 0px;
+
+
+   
+}
+.banner p
+{
+    font-size: 12px;
+    text-align: center;
+    color: #ffff;
+    line-height: 1.8;
+    margin: auto;
+    width: 800px;
+    
+}
+
+.sec_image
+{
+margin:30px 0px 30px 0px;
+
+}
+
+.sec_image ul
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sec_image ul li
+{
+    float: left;
+    width: 20%;
+    height: 250px;
+    padding: 0px 10px 0px 0px;
+    
+   
+    box-sizing: border-box;
+}
+.sec_image ul li img {
+    width: 100%;
+}
+
+.sec_image>ul>li:last-child
+{
+    padding: 0px;
+}
+   
+.nav_col
+{
+    background-color: #003366;
+    margin-top: 30px;
+    height: 250px;
+
+}
+.col-350
+{
+    float: left;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffff;
+    background-image: url(../images/image5.jpg);
+
+}
+
+.col-500
+{   
+    float: left;
+    margin: 20 35 20 35px;
+    width: 690px;
+    height: 200px;
+   
+    
+}
+.col-500 h2
+{
+    color: #ffff;
+    text-align:left;
+    margin-top: 30px;
+    padding: 0px;
+
+}
+.col-500 p
+{
+    color: #ffff;
+    font-size: 12px;
+    margin: 10px 0px 30px 0px;
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+.know_more
+{
+    text-decoration: none;
+    color: 333333;
+    background-color: #ffff;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+}
