@@ -23,7 +23,7 @@ list-style: none;
 }
 .head
 {
-    background-color: #60c0ff;
+    background-color: #0c395f;
     width: 1000px;
     height: 80px; 
     padding-top: 30px; 
@@ -140,7 +140,7 @@ margin:10px auto;
    
 .nav_col
 {
-    background-color: #003366;
+    background-color: #0c395f;
     margin-top: 10px;
     height: 250px;
 
@@ -183,6 +183,8 @@ margin:10px auto;
 
 }
 
+
+
 .know_more
 {
     text-decoration: none;
@@ -194,4 +196,104 @@ margin:10px auto;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    float: left;
+}
+
+.click
+{
+    color: #ffff;
+    
+    text-decoration: none;
+    margin-left:40px;
+
+}
+
+.tb table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+}
+.tb table tr:nth-child(even)
+
+{
+  background-color: #eae9e9;
+}
+
+.tb table th
+{
+    background-color: #60c0ff;
+    color: white;
+    font-size: 15px;
+}
+
+.tb table, th, td {
+    border: 1px solid black;
+    height: 50px;
+    vertical-align: bottom;
+    padding: 15px;
+    text-align: left;
+
+}
+
+.tb
+{
+    overflow-x: auto;
+    margin: 10px 0px 10px 0px;
+}
+.copy
+{
+     width: 300px;
+     padding-left: 30px;
+     float: left;
+}
+footer
+{
+    background: #0c395f;
+    padding: 20px 0 20px;
+    overflow: hidden;;
+}
+
+footer .copyright
+{
+    font-size: 12px;
+    color: #fff;
+   margin-left:20px;
+}
+
+ .footer_nav
+{
+
+    float:right;
+    margin:10px 35px 0px;
+}
+
+ .footer_nav ul
+ {
+
+    float: right;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.footer_nav ul li
+{
+    float: left;
+    color: #ffff;
+    padding-right: 30px;
+    
+    
+}
+
+.footer_nav ul li:last-child
+{
+    padding-right: 0;   
+}
+
+.footer_nav li a
+{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 12px;
+
 }
