@@ -16,17 +16,20 @@ list-style: none;
 }
 
 /*HEADER*/
+
+.head
+{
+    background-color: #0c395f;
+    width: 100%;
+    height: 80px; 
+    padding-top: 30px; 
+    position: fixed;
+}
+
 .container
 { 
     width: 1000px;
     margin: 0 auto;
-}
-.head
-{
-    background-color: #0c395f;
-    width: 1000px;
-    height: 80px; 
-    padding-top: 30px; 
 }
 
 .logo
@@ -68,9 +71,11 @@ list-style: none;
 
 .banner
 {
+    width: 100%;
     background: url(../images/banner.jpg) no-repeat ;
     height: 450px;
-    padding-top: 150px;
+    padding-top: 225px;
+    background-size: cover;
 
 }
 .banner h1
@@ -107,7 +112,8 @@ list-style: none;
 
 .sec_image
 {
-margin:10px auto;
+      margin:10px auto;
+      width:100%;
 
 }
 
@@ -134,6 +140,41 @@ margin:10px auto;
 }
 
 .sec_image>ul>li:last-child
+{
+    padding: 0px;
+}
+
+/*GALLERY 2*/
+.sec_image_one
+{
+      margin:10px auto;
+      width:100%;
+
+}
+
+.sec_image_one ul
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.sec_image_one ul li
+{
+    float: left;
+    width: 190px;
+    height: 250px;
+    padding: 0px 10px 0px 0px;
+    
+}
+.sec_image_one ul li p{
+    margin: 0;
+}
+.sec_image_one ul li img {
+    width: 100%;
+}
+
+.sec_image_one>ul>li:last-child
 {
     padding: 0px;
 }
@@ -245,6 +286,11 @@ margin:10px auto;
      width: 300px;
      padding-left: 30px;
      float: left;
+}
+.align
+{
+    text-align: center;
+    font-weight: bold;
 }
 footer
 {
